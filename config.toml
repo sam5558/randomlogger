@@ -1,8 +1,8 @@
 # default config
-baseURL = "https://examplesite.org"
+baseURL = "/"
 languageCode = "en-us"
 title = "Parsa Hugo | Personal Blog Template"
-theme = "parsa-hugo"
+theme = "Parsa-hugo"
 summaryLength = "10"
 paginate = 6
 
