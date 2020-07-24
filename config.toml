@@ -1,188 +1,104 @@
-baseURL = "https://example.com"
-languageCode = "en"
-defaultContentLanguage = "en"
-title = "KeepIt"
-theme = "KeepIt"
+# default config
+baseURL = "https://examplesite.org"
+languageCode = "en-us"
+title = "Parsa Hugo | Personal Blog Template"
+theme = "parsa-hugo"
+summaryLength = "10"
+paginate = 6
 
-paginate = 12
-enableEmoji = true
-enableRobotsTXT = true
-googleAnalytics = ""
-disqusShortname = "yourdiscussshortname"
+# output
+[outputs]
+home = ["HTML", "RSS", "JSON"]
 
-[sitemap]
-  changefreq = "monthly"
-  filename = "sitemap.xml"
-  priority = 0.5
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
 
-[blackfriday]
-  hrefTargetBlank = true
-  nofollowLinks = true
-  noreferrerLinks = true
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/headroom/headroom.js"
+[[params.plugins.js]]
+link = "plugins/instafeed/instafeed.min.js"
+[[params.plugins.js]]
+link = "plugins/masonry/masonry.js"
+[[params.plugins.js]]
+link = "plugins/reading-time/readingTime.min.js"
+[[params.plugins.js]]
+link = "plugins/smooth-scroll/smooth-scroll.js"
+[[params.plugins.js]]
+link = "plugins/search/fuse.min.js"
+[[params.plugins.js]]
+link = "plugins/search/mark.js"
+[[params.plugins.js]]
+link = "plugins/search/search.js"
 
-[Permalinks]
- posts = "/:year/:filename/"
+# navigation
+[[menu.main]]
+name = "About"
+URL = "about"
+weight = 2
 
-[menu]
-  [[menu.main]]
-    name = "Blog"
-    url = "/posts/"
-    weight = 1
+[[menu.main]]
+name = "Contact"
+URL = "contact"
+weight = 3
 
-  [[menu.main]]
-    name = "Categories"
-    url = "/categories/"
-    weight = 3
-
-  [[menu.main]]
-    name = "About"
-    url = "/about"
-    weight = 4
-
+# deult parameter
 [params]
-    since = 2012
-    author = "Fastbyte01"               # Author's name
-    subtitle = "A Hugo theme"       # Subtitle
-    cdn_url = ""           # Base CDN URL
-    home_mode = "" # post or other
+logo = "images/logo.png"
+home = "Home"
+# theme layout ( two layout is available, "1" and "2" )
+layout = "1"
+# Meta data
+description = "This is meta description"
+# Preloader
+preloader = true
+# search
+search = true
+# about author
+author = "Themefisher"
+author_image = "images/banner-img.png"
+bio = "I’m a Freelance Interactive Art Director based in France. Focusing across branding and identity, digital and print."
+# Contact info
+mobile = "+90 000 333 22"
+email = "exmaple@ymail.com"
+address = "6 rip carl Avenue CA 90733"
+# Contact Form Action
+contact_form_action = "#"
+# Google Analitycs
+google_analitycs_id = "Your ID"
+# copyright
+copyright = "Copyright &copy; 2020 a theme by [themefisher.com](themefisher.com)"
 
-    google_verification = ""
-    bing_verification = ""
-    yandex_verification = ""
-    pinterest_verification = ""
-    baidu_verification = ""
+# Instagram feed
+[params.instafeed]
+enable = true
+user_id = "4044026246"
+access_token = "4044026246.1677ed0.8896752506ed4402a0519d23b8f50a17"
 
-    avatar = "/images/me/avatar.jpeg" #comment it to use gravatar
-    socialShare = true
+# social site
+[[params.social]]
+icon = "ti-facebook"
+URL = "#"
 
-    description = "" # site description
-    keywords = "" # site keywords
+[[params.social]]
+icon = "ti-twitter-alt"
+URL = "#"
 
-    license= 'Released under <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+[[params.social]]
+icon = "ti-linkedin"
+URL = "#"
 
-[params.gravatar]
-    #email = "example@gmail.com"   #uncomment and insert your email address to use gravatar
-
-
-[params.social]
-    GitHub = "xxxx"
-    Linkedin = "xxxx"
-    Twitter = "xxxx"
-    #Instagram = "xxxx"
-    #Email   = "xxxx"
-    Facebook = "xxxx"
-    #Telegram = "xxxx"
-    #Medium = "xxxx"
-    #Gitlab = "xxxx"
-    #Youtubelegacy = "xxxx"
-    #Youtubecustom = "xxxx"
-    #Youtubechannel = "xxxx"
-    #Tumblr ="xxxx"
-    #Quora = "xxxx"
-    #Keybase = "xxxx"
-    #Pinterest = "xxxx"
-    #Reddit = "xxxx"
-    #Codepen = "xxxx"
-    #Bitbucket = "xxxx"
-    #Stackoverflow = "xxxxx"
-    #Weibo = "xxxx"
-    #Odnoklassniki = "xxxx"
-    #VKontakte = "xxxx"
-    #Flickr = "xxxx"
-    #Xing = "xxxx"
-    #Snapchat = "xxxx"
-    #Soundcloud = "xxxx"
-    #Spotify = "xxxx"
-    #Bandcamp = "xxxx"
-    #Paypal = "xxxx"
-    #Fivehundredpx = "xxxx"
-    #Mix = "xxxx"
-    #Goodreads = "xxxx"
-    #Lastfm = "xxxx"
-    #Foursquare = "xxxx"
-    #Hackernews = "xxxx"
-    #Kickstarter = "xxxx"
-    #Patreon = "xxxx"
-    #Steam = "xxxx"
-    #Twitch = "xxxx"
-    #Strava = "xxxx"
-    #Skype = "xxxx"
-    #Whatsapp = "xxxx"
-    #Zhihu = "xxxx"
-    #Douban = "xxxx"
-    #Angellist = "xxxx"
-    #Slidershare = "xxxx"
-    #Jsfiddle = "xxxx"
-    #Deviantart = "xxxx"
-    #Behance = "xxxx"
-    #Dribble = "xxxx"
-    #Wordpress = "xxxx"
-    #Vine = "xxxx"
-    #Googlescholar = "xxxx"
-    #Researchgate = "xxxx"
-    #Mastodon = "xxxx"
-    #Thingiverse = "xxxx"
-
-[params.share]
-Twitter = true
-Facebook = true
-#Reddit = true
-Linkedin = true
-#Pinterest = true
-#HackerNews = true
-#Mix = true
-#Tumblr = true
-#VKontakte = true
-#Douban = true
-#Weibo = true
-
-# Used only for Seo schema
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
-
-[author]
-  name = "Fastbyte01"
-
-  [params.publisher]
-    name = "Fastbyte01"
-
-    [params.publisher.logo]
-      url = "logo.png"
-      width = 127
-      height = 40
-
-  [params.logo]
-    url = "logo.png"
-    width = 127
-    height = 40
-
-  [params.image]
-    url = "cover.png"
-    width = 800
-    height = 600
-
-[params.gitalk]
-owner = ""       # Your GitHub ID
-repo = ""        # The repo to store comments
-clientId = ""    # Your client ID
-clientSecret = "" # Your client secret
-
-[params.valine]
-  enable = false
-  language = 'en'
-  appId = 'your appId'
-  appKey = 'your appKey'
-  notify = false  # mail notifier , https://github.com/xCss/Valine/wiki
-  verify = false # Verification code
-  avatar = 'mm'
-  placeholder = 'your comments ...'
-  visitor = true
-
-[params.utterances]       # https://utteranc.es/
-    owner = ""              # Your GitHub ID
-    repo = ""               # The repo to store comments
-
-[params.gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
-    owner = ""              # Your GitHub ID
-    repo = ""               # The repo to store comments
-    clientId = ""           # Your client ID
-    clientSecret = ""       # Your client secret
+[[params.social]]
+icon = "ti-github"
+URL = "#"
