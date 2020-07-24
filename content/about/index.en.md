@@ -2,8 +2,6 @@
 title = "About" 
 date = "2019-04-18" 
 aliases = ["about-us","about-hugo","contact"] 
-[ author ] 
-name = "Salim Mourabbi" 
 +++
 
 
