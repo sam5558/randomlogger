@@ -1,7 +1,7 @@
 # default config
 baseURL = "/"
 languageCode = "en-us"
-title = "Parsa Hugo | Personal Blog Template"
+title = "RandomLogger"
 theme = "Parsa-hugo"
 summaryLength = "10"
 paginate = 6
@@ -68,21 +68,21 @@ search = true
 # about author
 author = "Themefisher"
 author_image = "images/banner-img.png"
-bio = "I’m a Freelance Interactive Art Director based in France. Focusing across branding and identity, digital and print."
+bio = "I'm a lazy person."
 # Contact info
-mobile = "+90 000 333 22"
-email = "exmaple@ymail.com"
-address = "6 rip carl Avenue CA 90733"
+mobile = "+212 000 000"
+email = "mourabbi.salim@gmail.com"
+address = "127.0.0.1"
 # Contact Form Action
 contact_form_action = "#"
 # Google Analitycs
 google_analitycs_id = "Your ID"
 # copyright
-copyright = "Copyright &copy; 2020 a theme by [themefisher.com](themefisher.com)"
+copyright = "Copyright &copy; 2020"
 
 # Instagram feed
 [params.instafeed]
-enable = true
+enable = false
 user_id = "4044026246"
 access_token = "4044026246.1677ed0.8896752506ed4402a0519d23b8f50a17"
 
