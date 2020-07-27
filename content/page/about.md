@@ -1,16 +1,20 @@
 ---
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Don't expect much...
 comments: false
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Salim is a weird creature, he thinks everyone is lazy `like him`.
+The thing is, no one told him the truth, so he's condamned to live in the misundertanding of the society.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+I like:
+
+- Reading/Watching japanease shit
+- Chilling in my bed
+- Listening to pretty much all kinds of music, how exotic they can be.
 
 What else do you need?
 
-### my history
+### My history
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+To be honest, i've always been interested in the IT field. I've tought about doing some web development before finding interest in linux administration, tooling, monitoring, and other stuff.
