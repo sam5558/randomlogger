@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://www.randomlogger.ml"
 DefaultContentLanguage = "en"
 #DefaultContentLanguage = "ja"
 title = "Random Logger"
