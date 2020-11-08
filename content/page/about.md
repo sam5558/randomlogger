@@ -1,20 +1,27 @@
----
-title: About me
-subtitle: Don't expect much...
-comments: false
----
++++
+title = "About"
+description = "Hugo, the world's fastest framework for building websites"
+date = "2019-02-28"
+aliases = ["about-us", "about-hugo", "contact"]
+author = "Hugo Authors"
+license = "CC BY-NC-ND"
+lastmod = "2020-10-09"
++++
 
-Salim is a weird creature, he thinks everyone is lazy `like him`.
-The thing is, no one told him the truth, so he's condamned to live in the misundertanding of the society.
+Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
 
-I like:
+Hugo makes use of a variety of open source projects including:
 
-- Reading/Watching japanease shit
-- Chilling in my bed
-- Listening to pretty much all kinds of music, how exotic they can be.
+* https://github.com/yuin/goldmark
+* https://github.com/alecthomas/chroma
+* https://github.com/muesli/smartcrop
+* https://github.com/spf13/cobra
+* https://github.com/spf13/viper
 
-What else do you need?
+Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
 
-### My history
+Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
 
-To be honest, i've always been interested in the IT field. I've tought about doing some web development before finding interest in linux administration, tooling, monitoring, and other stuff.
+Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
+
+Learn more and contribute on [GitHub](https://github.com/gohugoio).
