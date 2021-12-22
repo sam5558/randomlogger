@@ -137,7 +137,7 @@ languages:
               weight: 50
     fr:
         languageName: ":fr:"
-        weight: 1
+        weight: 2
         menu:
           main:
             - identifier: categories
