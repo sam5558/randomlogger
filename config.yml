@@ -79,7 +79,7 @@ params:
     - name: stackoverflow
       url: "https://stackoverflow.com"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/sam5558"
 
   analytics:
     google:
@@ -119,10 +119,17 @@ menu:
       name: tags
       url: /tags/
       weight: 20
-    - identifier: example
-      name: randomlogger.ml
-      url: https://randomlogger.ml
+    - identifier: posts
+      name: posts
+      url: /posts/
       weight: 30
+    - identifier: linux
+      name: linux
+      url: /monitoring/
+    - identifier: about
+      name: about
+      url: /about/
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
