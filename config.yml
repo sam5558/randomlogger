@@ -126,6 +126,9 @@ menu:
     - identifier: linux
       name: linux
       url: /linux/
+    - identifier: about
+      name: about
+      url: /about
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
