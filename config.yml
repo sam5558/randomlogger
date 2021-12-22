@@ -109,28 +109,57 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
-menu:
-  main:
-    - identifier: categories
-      name: categories
-      url: /categories/
-      weight: 10
-    - identifier: monitoring
-      name: monitoring
-      url: /monitoring/
-      weight: 20
-    - identifier: post
-      name: post
-      url: /post/
-      weight: 30
-    - identifier: linux
-      name: linux
-      url: /linux/
-      weight: 40
-    - identifier: about
-      name: about
-      url: /about
-      weight: 50
+languages:
+    en:
+        languageName: ":gb:"
+        weight: 1
+        menu:
+          main:
+            - identifier: categories
+              name: categories
+              url: /categories/
+              weight: 10
+            - identifier: monitoring
+              name: monitoring
+              url: /monitoring/
+              weight: 20
+            - identifier: post
+              name: post
+              url: /post/
+              weight: 30
+            - identifier: linux
+              name: linux
+              url: /linux/
+              weight: 40
+            - identifier: about
+              name: about
+              url: /about
+              weight: 50
+    fr:
+        languageName: ":fr:"
+        weight: 1
+        menu:
+          main:
+            - identifier: categories
+              name: categories
+              url: /categories/
+              weight: 10
+            - identifier: monitoring
+              name: monitoring
+              url: /monitoring/
+              weight: 20
+            - identifier: post
+              name: post
+              url: /post/
+              weight: 30
+            - identifier: linux
+              name: linux
+              url: /linux/
+              weight: 40
+            - identifier: about
+              name: about
+              url: /about
+              weight: 50
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
