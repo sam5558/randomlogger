@@ -1,6 +1,6 @@
 baseURL: "https://randomlogger.ml/"
 title: RandomLogger
-paginate: 5
+paginate: 10
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -71,13 +71,13 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Content: a random IT logger blog
 
   socialIcons:
-    - name: twitter
-      url: "https://twitter.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/smourabbi/"
+    - name: email
+      url: "mourabbi.salim@gmail.com"
     - name: github
       url: "https://github.com/sam5558"
 
