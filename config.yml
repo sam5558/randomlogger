@@ -125,7 +125,7 @@ menu:
       weight: 30
     - identifier: linux
       name: linux
-      url: /monitoring/
+      url: /linux/
     - identifier: about
       name: about
       url: /about/
