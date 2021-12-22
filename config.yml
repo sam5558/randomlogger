@@ -1,5 +1,5 @@
 baseURL: "https://randomlogger.ml/"
-title: ExampleSite
+title: RandomLogger
 paginate: 5
 theme: PaperMod
 
