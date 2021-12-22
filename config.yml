@@ -126,9 +126,11 @@ menu:
     - identifier: linux
       name: linux
       url: /linux/
+      weight: 40
     - identifier: about
       name: about
       url: /about
+      weight: 50
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
