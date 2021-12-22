@@ -125,9 +125,9 @@ languages:
               name: monitoring
               url: /monitoring/
               weight: 20
-            - identifier: post
-              name: post
-              url: /post/
+            - identifier: nas
+              name: nas
+              url: /nas/
               weight: 30
             - identifier: linux
               name: linux
