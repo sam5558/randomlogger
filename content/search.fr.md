@@ -1,8 +1,4 @@
 ---
-title: "Recherche"
-slug: "recherche"
+title: "SearchL2"
 layout: "search"
-outputs:
-    - html
-    - json
 ---
