@@ -1,5 +1,5 @@
 +++
-categories = ["Hugo", "Jekyll"]
+categories = ["Hugo", "Jekyll", "monitoring"]
 date = "2014-03-10"
 description = ""
 featured = ""
@@ -10,7 +10,7 @@ slug = "Migrer vers Hugo depuis Jekyll"
 title = "Migrer vers Hugo depuis Jekyll"
 type = ["posts","post"]
 [ author ]
-  name = "Hugo Authors"
+  name = "Salim"
 +++
 
 ## Déplacez le contenu statique vers `static`

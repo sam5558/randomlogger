@@ -108,6 +108,7 @@ params:
     location: 0
     distance: 1000
     threshold: 0.4
+    includeMatches: true
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
 languages:
@@ -123,22 +124,27 @@ languages:
               weight: 10
             - identifier: monitoring
               name: monitoring
-              url: /monitoring/
+              url: /categories/monitoring/
               weight: 20
             - identifier: nas
               name: nas
-              url: /nas/
+              url: /categories/nas/
               weight: 30
             - identifier: linux
               name: linux
-              url: /linux/
+              url: /categories/linux/
               weight: 40
             - identifier: about
               name: about
               url: /about
               weight: 50
+            - identifier: search
+              name: search
+              url: /search
+              weight: 60
     fr:
-        languageName: ":fr:"
+        flag: "images/lang/fr.png"
+        languageName: Français
         languageAltTitle: French
         weight: 2
         menu:
@@ -149,20 +155,24 @@ languages:
               weight: 10
             - identifier: monitoring
               name: monitoring
-              url: /monitoring/
+              url: /categories/monitoring/
               weight: 20
-            - identifier: post
-              name: post
-              url: /post/
+            - identifier: nas
+              name: nas
+              url: /categories/nas/
               weight: 30
             - identifier: linux
               name: linux
-              url: /linux/
+              url: /categories/linux/
               weight: 40
-            - identifier: about
-              name: about
+            - identifier: a propos
+              name: a propos
               url: /about
               weight: 50
+            - identifier: recherche
+              name: recherche
+              url: /recherche
+              weight: 60
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true

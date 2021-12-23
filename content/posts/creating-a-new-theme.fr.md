@@ -1,5 +1,5 @@
 +++
-categories = ["Hugo"]
+categories = ["Hugo","linux"]
 date = "2014-09-28"
 description = "Apprenez comment créer un thème Hugo"
 featured = "pic01.jpg"

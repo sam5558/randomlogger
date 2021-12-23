@@ -1,5 +1,5 @@
 +++
-categories = ["Go"]
+categories = ["Go","nas"]
 date = "2014-04-02"
 description = ""
 featured = "pic02.jpg"

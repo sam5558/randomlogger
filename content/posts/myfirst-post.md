@@ -13,8 +13,7 @@ categories = [
     "Linux",
 ]
 series = ["Salim 101"]
-[ author ]
-  name = "Salim"
+author = "Salim"
 +++
 
 ## Step 1. Install Hugo

@@ -1,12 +1,14 @@
 ---
 author:
-  name: "Hugo Authors"
+  name: "Salim"
 date: 2014-03-10
 linktitle: Migrating from Jekyll
 title: Migrate to Hugo from Jekyll
 type:
 - post
 - posts
+categories:
+- monitoring
 weight: 10
 series:
 - Hugo 101

@@ -1,11 +1,12 @@
 ---
-author:
-  name: "Michael Henderson"
+author : "Salim"
 date: 2014-09-28
 linktitle: Creating a New Theme
 type:
 - post
 - posts
+categories:
+- linux
 title: Creating a New Theme
 weight: 10
 series:
