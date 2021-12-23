@@ -143,7 +143,6 @@ languages:
               url: /search
               weight: 60
     fr:
-        flag: "images/lang/fr.png"
         languageName: Français
         languageAltTitle: French
         weight: 2
