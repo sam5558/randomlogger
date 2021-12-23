@@ -9,15 +9,15 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 
-# googleAnalytics: UA-123-45
+googleAnalytics: UA-123-45
 
 minify:
   disableXML: true
   #minifyOutput: true
 
 params:
-  # env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Randomlogger
   description: "ExampleSite description"
   keywords: [Blog, Portfolio, PaperMod]
   author: Salim
