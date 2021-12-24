@@ -1,4 +1,4 @@
 ---
-title: "SearchL2"
-layout: "recherche"
+title: "Recherche"
+layout: "search"
 ---

@@ -170,7 +170,7 @@ languages:
               weight: 50
             - identifier: recherche
               name: recherche
-              url: /recherche
+              url: /search
               weight: 60
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
