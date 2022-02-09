@@ -2,7 +2,7 @@
 title: "Extend Shortcodes Tests"
 date: 2021-04-16T14:21:36+01:00
 lastmod: 2021-04-16T14:21:36+01:00
-draft: true
+draft: false
 description: "Extend Shortcodes Tests"
 categories: [Tests]
 authors: [PCloud]

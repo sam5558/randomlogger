@@ -133,6 +133,10 @@ Example `tweet` input:
 {{</* tweet 877500564405444608 */>}}
 ```
 
+The rendered output looks like this:
+
+{{< tweet 877500564405444608 >}}
+
 ## 7 vimeo
 
 [Documentation of `vimeo`](https://gohugo.io/content-management/shortcodes#vimeo)

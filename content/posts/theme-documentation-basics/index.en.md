@@ -13,7 +13,7 @@ categories: ["documentation"]
 series: ["getting-start"]
 series_weight: 1
 lightgallery: true
-license: '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+
 toc:
   auto: false
 ---
@@ -214,8 +214,6 @@ Please open the code block below to view the complete sample configuration :(far
   # {{< version 0.2.11 >}} enable PWA support
   enablePWA = false
   # {{< version 0.2.0 >}} App icon config
-  # {{< version 0.2.14 >}} License information
-  license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
     title = "DoIt"
@@ -289,9 +287,6 @@ Please open the code block below to view the complete sample configuration :(far
     custom = ''
     # {{< version 0.2.0 >}} whether to show Hugo and theme info
     hugo = true
-    # {{< version 0.2.14 >}} Hosted on (HTML format is supported)
-    # <a title="Github Pages" href="https://docs.github.com/en/pages/" target="_blank" rel="noopener noreffer">GitHub Pages</a>
-    hostedOn = '' 
     # {{< version 0.2.0 >}} whether to show copyright info
     copyright = true
     # {{< version 0.2.0 >}} whether to show the author
@@ -451,17 +446,11 @@ Please open the code block below to view the complete sample configuration :(far
     fontawesome = true
     # whether to show link to Raw Markdown content of the content
     linkToMarkdown = true
-    # {{< version 0.2.14 >}} configure the link to the source file of the post
-    linkToSource = false
-    # "https://github.com/user/repo/blob/main/{path}"
     # {{< version 0.2.13 >}} configure the link to edit the post
     linkToEdit = false
     # "https://github.com/user/repo/edit/main/{path}"
     # "https://gitlab.com/user/repo/-/edit/main/{path}"
     # "https://bitbucket.org/user/repo/src/main/{path}?mode=edit"
-    # {{< version 0.2.14 >}} configure the link to report issue for the post
-    linkToReport = false
-    # "https://github.com/user/repo/issues/new?title=[bug]%20{title}&body=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|Url|{url}|%0A|Filename|https://github.com/user/repo/blob/main/{path}|"
     # {{< version 0.2.4 >}} whether to show the full text content in RSS
     rssFullText = false
     # {{< version 0.2.11 >}} page layout style ("normal", "wide")
@@ -502,10 +491,6 @@ Please open the code block below to view the complete sample configuration :(far
       copy = true
       # the maximum number of lines of displayed code by default
       maxShownLines = 10
-    # {{< version 0.2.14 >}} Table config
-    [params.page.table]
-      # whether to enable sorting in the tables
-      sort = true
     # {{< version 0.2.0 >}} {{< link "https://docs.mapbox.com/mapbox-gl-js" "Mapbox GL JS" >}} config
     [params.page.mapbox]
       # access token of Mapbox GL JS
@@ -677,25 +662,14 @@ Please open the code block below to view the complete sample configuration :(far
     [params.page.library]
       [params.page.library.css]
         # someCSS = "some.css"
-        # {{< version 0.2.14 >}} Enhance third-party library config
-        # [params.page.library.css.someOtherCSS]
-        #   src = "someOther.css"
-        #   defer = true
-        #   attr = "customAttribute"
         # located in "assets/"
         # Or
         # someCSS = "https://cdn.example.com/some.css"
       [params.page.library.js]
-        # someJavaScript = "some.js"
-        # {{< version 0.2.14 >}} Enhance third-party library config
-        # [params.page.library.js.someOtherJavaScript]
-        #   src = "someOther.js"
-        #   defer = false
-        #   async = true
-        #   attr = "customAttribute"
+        # someJavascript = "some.js"
         # located in "assets/"
         # Or
-        # someJavaScript = "https://cdn.example.com/some.js"
+        # someJavascript = "https://cdn.example.com/some.js"
     # {{< version 0.2.10 changed >}} Page SEO config
     [params.page.seo]
       # image URL
@@ -765,9 +739,6 @@ Please open the code block below to view the complete sample configuration :(far
     [params.analytics.plausible]
       data_domain = ""
       src = ""
-    # {{< version 0.2.14 >}} Cloudflare Analytics
-    [params.analytics.cloudflare]
-      token = ""
 
   # {{< version 0.2.7 >}} Cookie consent config
   [params.cookieconsent]

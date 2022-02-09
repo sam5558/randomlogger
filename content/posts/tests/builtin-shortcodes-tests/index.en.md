@@ -2,7 +2,7 @@
 title: "Built-in Shortcodes Tests"
 date: 2021-04-16T14:08:05+01:00
 lastmod: 2021-04-16T14:08:05+01:00
-draft: true
+draft: false
 description: "Built-in Shortcodes Tests"
 categories: [Tests]
 authors: [PCloud]
@@ -44,6 +44,8 @@ hiddenFromSearch: true
 [relref]({{< relref "../../../about/index.en.md" >}})
 
 ## tweet
+
+{{< tweet 877500564405444608 >}}
 
 ## vimeo
 

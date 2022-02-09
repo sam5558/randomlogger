@@ -214,10 +214,8 @@ hugo
   dateFormat = "2006-01-02"
   # 网站图片, 用于 Open Graph 和 Twitter Cards
   images = ["/logo.png"]
-  # {{< version 0.2.11 >}} 开启 PWA 支持
+  # {{< version 0.2.11 >}} 开启PWA支持
   enablePWA = false
-  # {{< version 0.2.14 >}} 版权信息
-  license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
   # {{< version 0.2.0 >}} 应用图标配置
   [params.app]
     # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
@@ -293,9 +291,6 @@ hugo
     custom = ''
     # {{< version 0.2.0 >}} 是否显示 Hugo 和主题信息
     hugo = true
-    # {{< version 0.2.14 >}} 托管服务信息 (支持 HTML 格式)
-    # <a title="Github Pages" href="https://docs.github.com/en/pages/" target="_blank" rel="noopener noreffer">GitHub Pages</a>
-    hostedOn = '' 
     # {{< version 0.2.0 >}} 是否显示版权信息
     copyright = true
     # {{< version 0.2.0 >}} 是否显示作者
@@ -455,17 +450,11 @@ hugo
     fontawesome = true
     # 是否在文章页面显示原始 Markdown 文档链接
     linkToMarkdown = true
-    # {{< version 0.2.14 >}} 配置文章原始文件的链接
-    linkToSource = false
-    # "https://github.com/user/repo/blob/main/{path}"
     # {{< version 0.2.13 >}} 配置编辑文章的链接
     linkToEdit = false
     # "https://github.com/user/repo/edit/main/{path}"
     # "https://gitlab.com/user/repo/-/edit/main/{path}"
     # "https://bitbucket.org/user/repo/src/main/{path}?mode=edit"
-    # {{< version 0.2.14 >}} 配置提交错误的链接
-    linkToReport = false
-    # "https://github.com/user/repo/issues/new?title=[bug]%20{title}&body=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|Url|{url}|%0A|Filename|https://github.com/user/repo/blob/main/{path}|"
     # {{< version 0.2.4 >}} 是否在 RSS 中显示全文内容
     rssFullText = false
     # {{< version 0.2.11 >}} 页面样式 ("normal", "wide")
@@ -493,10 +482,6 @@ hugo
       copy = true
       # 默认展开显示的代码行数
       maxShownLines = 10
-    # {{< version 0.2.14 >}} 表格配置
-    [params.page.table]
-      # 是否开启表格排序
-      sort = true
     # {{< version 0.2.0 changed >}} {{< link "https://katex.org/" KaTeX >}} 数学公式
     [params.page.math]
       enable = true
@@ -681,25 +666,14 @@ hugo
     [params.page.library]
       [params.page.library.css]
         # someCSS = "some.css"
-        # {{< version 0.2.14 >}} 更多第三方库配置
-        # [params.page.library.css.someOtherCSS]
-        #   src = "someOther.css"
-        #   defer = true
-        #   attr = "customAttribute"
         # 位于 "assets/"
         # 或者
         # someCSS = "https://cdn.example.com/some.css"
       [params.page.library.js]
-        # someJavaScript = "some.js"
-        # {{< version 0.2.14 >}} 更多第三方库配置
-        # [params.page.library.js.someOtherJavaScript]
-        #   src = "someOther.js"
-        #   defer = false
-        #   async = true
-        #   attr = "customAttribute"
+        # someJavascript = "some.js"
         # 位于 "assets/"
         # 或者
-        # someJavaScript = "https://cdn.example.com/some.js"
+        # someJavascript = "https://cdn.example.com/some.js"
     # {{< version 0.2.10 changed >}} 页面 SEO 配置
     [params.page.seo]
       # 图片 URL
@@ -769,9 +743,6 @@ hugo
     [params.analytics.plausible]
       data_domain = ""
       src = ""
-    # {{< version 0.2.14 >}} Cloudflare Analytics
-    [params.analytics.cloudflare]
-      token = ""
 
   # {{< version 0.2.7 >}} Cookie 许可配置
   [params.cookieconsent]

@@ -2,7 +2,7 @@
 title: "Series Taxonomy Tests"
 date: 2021-07-03T22:15:26+08:00
 lastmod: 2021-07-03T22:15:26+08:00
-draft: true
+draft: false
 description: "Series Taxonomy Tests"
 categories: [Tests]
 series: [Test series]
