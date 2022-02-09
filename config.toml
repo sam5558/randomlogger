@@ -27,9 +27,9 @@ enableEmoji = true
   [languages.en]
     weight = 1
     # language code
-    languageCode = "en"
+    languageCode = "fr"
     # language name
-    languageName = "English"
+    languageName = "French"
     # whether to include Chinese/Japanese/Korean
     hasCJKLanguage = false
     # default amount of posts in each pages
