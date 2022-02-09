@@ -11,7 +11,7 @@ theme = "DoIt"
 
 # website title
 # 网站标题
-title = "DoIt"
+title = "RandomLogger"
 
 # whether to use robots.txt
 # 是否使用 robots.txt
@@ -112,18 +112,18 @@ enableEmoji = true
         pre = "<i class='fab fa-github fa-fw'></i>"
         post = ""
         name = ""
-        url = "https://github.com/HEIGE-PCloud/DoIt"
+        url = "https://github.com/HEIGE-PCloud/RandomLogger"
         title = "GitHub"
         weight = 9
     [languages.en.params]
       # site description
-      description = "The official documentation for the Hugo DoIt theme"
+      description = "The official documentation for the Hugo RandomLogger theme"
       # site keywords
       keywords = ["Theme", "Hugo"]
       # App icon config
       [languages.en.params.app]
         # optional site title override for the app when added to an iOS home screen or Android launcher
-        title = "DoIt"
+        title = "RandomLogger"
         # whether to omit favicon resource links
         noFavicon = false
         # modern SVG favicon to use in place of older style .png and .ico files
@@ -359,18 +359,18 @@ enableEmoji = true
         pre = "<i class='fab fa-github fa-fw'></i>"
         post = ""
         name = ""
-        url = "https://github.com/HEIGE-PCloud/DoIt"
+        url = "https://github.com/HEIGE-PCloud/RandomLogger"
         title = "GitHub"
         weight = 9
     [languages.zh-cn.params]
       # 网站描述
-      description = "Hugo DoIt 主题官方文档"
+      description = "Hugo RandomLogger 主题官方文档"
       # 网站关键词
       keywords = ["Theme", "Hugo"]
       # 应用图标配置
       [languages.zh-cn.params.app]
         # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
-        title = "DoIt"
+        title = "RandomLogger"
         # 是否隐藏网站图标资源链接
         noFavicon = false
         # 更现代的 SVG 网站图标, 可替代旧的 .png 和 .ico 文件
@@ -521,16 +521,16 @@ enableEmoji = true
 [params]
   # website title
   # 网站标题
-  title = "Hugo DoIt Theme Documentation"
-  # DoIt theme version
-  # DoIt 主题版本
+  title = "Hugo RandomLogger Theme Documentation"
+  # RandomLogger theme version
+  # RandomLogger 主题版本
   version = "0.2.X"
   # site default theme ("light", "dark", "black", "auto")
   # 网站默认主题 ("light", "dark", "black", "auto")
   defaultTheme = "auto"
   # public git repo url only then enableGitInfo is true
   # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
-  gitRepo = "https://github.com/HEIGE-PCloud/DoIt"
+  gitRepo = "https://github.com/HEIGE-PCloud/RandomLogger"
   # which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
   # 哪种哈希函数用来 SRI, 为空时表示不使用 SRI ("sha256", "sha384", "sha512", "md5")
   fingerprint = ""
@@ -563,7 +563,7 @@ enableEmoji = true
       logo = ""
       # title name
       # 标题名称
-      name = "DoIt"
+      name = "RandomLogger"
       # you can add extra information before the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
       pre = "<i class='far fa-edit fa-fw'></i>"
@@ -662,7 +662,7 @@ enableEmoji = true
     linkToMarkdown = true
     # configure the link to edit the post
     # 配置编辑文章的链接
-    linkToEdit = "https://github.com/HEIGE-PCloud/DoIt/edit/main/exampleSite/content/{path}"
+    linkToEdit = "https://github.com/HEIGE-PCloud/RandomLogger/edit/main/exampleSite/content/{path}"
     # https://github.com/user/repo/edit/main/{path}
     # https://gitlab.com/user/repo/-/edit/main/{path}
     # https://bitbucket.org/user/repo/src/main/{path}?mode=edit
@@ -816,12 +816,12 @@ enableEmoji = true
         serverURLs = ""
         # emoji data file name, default is "google.yml"
         # ("apple.yml", "google.yml", "facebook.yml", "twitter.yml")
-        # located in "themes/DoIt/assets/data/emoji/" directory
+        # located in "themes/RandomLogger/assets/data/emoji/" directory
         # you can store your own data files in the same path under your project:
         # "assets/data/emoji/"
         # emoji 数据文件名称, 默认是 "google.yml"
         # ("apple.yml", "google.yml", "facebook.yml", "twitter.yml")
-        # 位于 "themes/DoIt/assets/data/emoji/" 目录
+        # 位于 "themes/RandomLogger/assets/data/emoji/" 目录
         # 可以在你的项目下相同路径存放你自己的数据文件:
         # "assets/data/emoji/"
         emoji = ""
@@ -879,7 +879,7 @@ enableEmoji = true
       # Twikoo comment 评论系统设置 (https://twikoo.js.org/)
       [params.page.comment.twikoo]
         enable = true
-        envId = "https://doit-docs-comment-twikoo.vercel.app/"
+        envId = "https://RandomLogger-docs-comment-twikoo.vercel.app/"
         region = ""
         path = ""
         visitor = true
@@ -1031,12 +1031,12 @@ enableEmoji = true
   [params.cdn]
     # CDN data file name, disabled by default
     # ("jsdelivr.yml")
-    # located in "themes/DoIt/assets/data/cdn/" directory
+    # located in "themes/RandomLogger/assets/data/cdn/" directory
     # you can store your own data files in the same path under your project:
     # "assets/data/cdn/"
     # CDN 数据文件名称, 默认不启用
     # ("jsdelivr.yml")
-    # 位于 "themes/DoIt/assets/data/cdn/" 目录
+    # 位于 "themes/RandomLogger/assets/data/cdn/" 目录
     # 可以在你的项目下相同路径存放你自己的数据文件:
     # "assets/data/cdn/"
     data = ""
