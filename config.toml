@@ -8,7 +8,7 @@ theme = "DoIt"
 # themes directory
 # 主题目录
 #themesDir = "../.."
-themesDir = "themes/DoIt"
+themesDir = "themes/"
 
 # website title
 # 网站标题
