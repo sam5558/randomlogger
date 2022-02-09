@@ -753,7 +753,7 @@ enableEmoji = true
     # 文章页面的分享信息设置
     [params.page.share]
       enable = true
-      Twitter = true
+      Twitter = false
       Facebook = true
       Linkedin = false
       Whatsapp = false
