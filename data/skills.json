@@ -1,32 +1,33 @@
 [
   {
-      "grouping":"Architecture",
-      "skills":[ "IP Networking","DNS","Firewalls","Load Balancing","Microservices","RESTful APIs","SaaS/PaaS/IaaS"]
+      "grouping":"Monitoring & Dashboarding",
+      "skills":[
+        {"name":"Nagios"},
+        {"name":"Centreon"},
+        {"name":"Zabbix"},
+        {"name":"Zenoss"},
+        {"name":"Cacti"},
+        {"name":"Grafana"}
+      ]
+  },
+  {
+      "grouping":"Infrastructure",
+      "skills":[ "Mikrotik","Wireguard","Cisco","HP","Dell","Peplink","Watchguard","Fortinet","OpenStack","Proxmox","Esxi","",""]
   },{
-      "grouping":"Languages, Operating Systems & Tools",
-      "skills":[ "Java","Python","git","subversion","linux","bash","php","jquery","javascript"]
+      "grouping":"Languages & Operating Systems",
+      "skills":[ "Git","Python","perl","bash","php","linux","Windows","Mac"]
   },
   {
       "grouping":"Platform Development & Administration",
-      "skills":[ "Atlassian","Bamboo","Bitbucket","NGINX","MySQL","Wordpress"]
-  },
-  {
-      "grouping":"Data Management",
-      "skills":[
-        {"name":"Microsoft SQL Server","icon":"msql_server"},
-        {"name":"Oracle","icon":"database"},
-        "MongoDB",
-        {"name":"Apache Spark"}
-      ]
+      "skills":[ "Atlassian","Postgres","","NGINX","MySQL","Wordpress"]
   },
   {
     "grouping":"Containers & Cloud",
       "skills":[
-          {"name":"BOSH","link":"https://bosh.io"},
-          {"name":"Docker","link":"https://docker.com"},
-          {"name":"AWS","link":"https://aws.amazon.com"},
-          {"name":"Google Cloud","link":"https://cloud.google.com"},
-          {"name":"Linux","link":"https://bosh.io"}
+          {"name":"OpenStack"},
+          {"name":"Docker"},
+          {"name":"AWS"},
+          {"name":"Google Cloud"}
       ]
   }
 ]
