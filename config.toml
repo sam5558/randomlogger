@@ -37,19 +37,19 @@ paginate = 10
     url = "/post/"
   [[menu.main]]
     name = "Linux"
-    pre = "<i class="fa-brands fa-linux"></i>"
+    pre = "<i class='fa fa-brands fa-linux'></i>"
     weight = 3
     identifier = "linux"
     url = "/linux/"
   [[menu.main]]
     name = "Monitoring"
-    pre = "<i class="fa-solid fa-monitor-waveform"></i>"
+    pre = "<i class='fa fa-solid fa-monitor-waveform'></i>"
     weight = 4
     identifier = "monitoring"
     url = "/monitoring/"
   [[menu.main]]
     name = "Nas"
-    pre = "<i class="fa-solid fa-hard-drive"></i>"
+    pre = "<i class='fa fa-solid fa-hard-drive'></i>"
     weight = 5
     identifier = "nas"
     url = "/nas/"
