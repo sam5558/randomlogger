@@ -1,97 +1,55 @@
-baseurl = "https://www.randomlogger.ml/"
+title = "Salim Mourabbi"
+baseURL = "https://www.randomlogger.ml/"
+theme = "hugo-resume"
 languageCode = "en-us"
-title = "Random Logger"
-theme = "blackburn"
-author = "Salim M"
-copyright = "&copy; 2022. All rights reserved."
-canonifyurls = true
-paginate = 10
-
-[indexes]
-  tag = "tags"
-  topic = "topics"
+PygmentsCodeFences = true
+PygmentsCodeFencesGuessSyntax = true
+PygmentsStyle = "monokai"
+enableGitInfo = false
 
 [params]
-  # Shown in the home page
-  subtitle = "Just another random website"
-  brand = "RandomLogger"
-  #googleAnalytics = "Your Google Analytics tracking ID"
-  #disqus = "Your Disqus shortname"
-  # CSS name for highlight.js
-  highlightjs = "androidstudio"
-  dateFormat = "02 Jan 2006, 15:04"
+address = "Rollinsford, NH"
+email = "email@domain.com"
+favicon = "/favicon.ico"
+firstName = "Salim"
+lastName = "Mourabbi"
+phone = "1-555-555-1234"
+profileImage = "img/TechChat.png"
+showEducation = true
+showExperience = true
+showOpenSource = true
+showProjects = true
+showPublications = true
+showQr = true
+showSkills = true
 
-[menu]
-  # Shown in the side menu.
-  [[menu.main]]
-    name = "Home"
-    pre = "<i class='fa fa-home fa-fw'></i>"
-    weight = 1
-    identifier = "home"
-    url = "/"
-  [[menu.main]]
-    name = "Posts"
-    pre = "<i class='fa fa-list fa-fw'></i>"
-    weight = 2
-    identifier = "post"
-    url = "/post/"
-  [[menu.main]]
-    name = "Linux"
-    pre = "<i class='fa fa-brands fa-linux'></i>"
-    weight = 3
-    identifier = "linux"
-    url = "/linux/"
-  [[menu.main]]
-    name = "Monitoring"
-    pre = "<i class='fa fa-solid fa-monitor-waveform'></i>"
-    weight = 4
-    identifier = "monitoring"
-    url = "/monitoring/"
-  [[menu.main]]
-    name = "Nas"
-    pre = "<i class='fa fa-solid fa-hard-drive'></i>"
-    weight = 5
-    identifier = "nas"
-    url = "/nas/"
-  [[menu.main]]
-    name = "About"
-    pre = "<i class='fa fa-user fa-fw'></i>"
-    weight = 6
-    identifier = "about"
-    url = "/about/"
-  [[menu.main]]
-    name = "Contact"
-    pre = "<i class='fa fa-phone fa-fw'></i>"
-    weight = 7
-    url = "/contact/"
+[params.google]
 
-[social]
-  # Link your social networking accouns to the side menu
-  # by entering your username or ID.
-  #twitter="*"
-  # gnusocial="*"
-  #facebook="*"
-  # weibo="*"
-  # tumblr="*"
-  #instagram="*"
-  # flickr="*"
-  # photo500px="*"
-  # pinterest="*"
-  # youtube="*"
-  # vimeo="*"
-  # vine="*"
-  # slideshare="*"
-  linkedin="smourabbi"
-  # xing="*"
-  # reddit="*"
-  # hackernews="*"
-  github="sam5558"
-  # gitlab="*"
-  # bitbucket="*"
-  #stackoverflow="*"
-  # serverfault="*"
-  # steam="*"
-  # mobygames="*"
-  # lastfm="*"
-  # discogs="*"
-  # keybase="*"
+[params.google.analytics]
+#trackerID = "XX-123446-01"
+
+[[params.handles]]
+link = "https://www.linkedin.com/in/smourabbi/"
+name = "LinkedIn"
+
+[[params.handles]]
+link = "https://github.com/sam5558/"
+name = "GitHub"
+
+[[params.handles]]
+#link = "https://bitbucket.org/eddiewebb/"
+#name = "Bitbucket"
+
+[[params.handles]]
+#link = "https://stackoverflow.com/users/story/82880"
+#name = "Stack Overflow"
+
+[[params.handles]]
+#link = "https://keybase.io/edwardawebb"
+#name = "Keybase"
+
+[outputs]
+home = ["HTML", "JSON"]
+
+[taxonomies]
+tag = "tags"
