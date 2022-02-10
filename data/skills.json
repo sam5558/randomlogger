@@ -12,14 +12,14 @@
   },
   {
       "grouping":"Infrastructure",
-      "skills":[ "Mikrotik","Wireguard","Cisco","HP","Dell","Peplink","Watchguard","Fortinet","OpenStack","Proxmox","Esxi","",""]
+      "skills":[ "Mikrotik","Wireguard","Cisco","HP","Dell","Peplink","Watchguard","Fortinet","OpenStack","Proxmox","Esxi"]
   },{
       "grouping":"Languages & Operating Systems",
-      "skills":[ "Git","Python","perl","bash","php","linux","Windows","Mac"]
+      "skills":[ "Git","Python","perl","bash","php","linux","Windows","MacOS"]
   },
   {
       "grouping":"Platform Development & Administration",
-      "skills":[ "Atlassian","Postgres","","NGINX","MySQL","Wordpress"]
+      "skills":[ "Atlassian","Postgres","NGINX","MySQL","Wordpress"]
   },
   {
     "grouping":"Containers & Cloud",
