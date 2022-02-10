@@ -8,7 +8,7 @@ PygmentsStyle = "monokai"
 enableGitInfo = false
 
 [params]
-address = "Rollinsford, NH"
+address = "Casablanca, MA"
 email = "mourabbi.salim@gmail.com"
 favicon = "/favicon.svg"
 firstName = "Salim"
@@ -22,6 +22,7 @@ showProjects = true
 showPublications = true
 showQr = true
 showSkills = true
+showBlog = true
 
 [params.google]
 
