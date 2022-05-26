@@ -19,7 +19,7 @@
   },
   {
       "grouping":"Platform Development & Administration",
-      "skills":[ "Atlassian","Postgres","NGINX","MySQL","Wordpress"]
+      "skills":[ "Atlassian","PostgreSQL","NGINX","MySQL","Wordpress"]
   },
   {
     "grouping":"Containers & Cloud",

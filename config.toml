@@ -1,5 +1,5 @@
 title = "Salim Mourabbi"
-baseURL = "https://www.randomlogger.ml/"
+baseURL = "https://www.randomlogs.ml/"
 theme = "hugo-resume"
 languageCode = "en-us"
 PygmentsCodeFences = true
