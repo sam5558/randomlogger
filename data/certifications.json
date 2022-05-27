@@ -19,5 +19,12 @@
 		"badge":"http://reussirsonccna.fr/wp-content/uploads/2012/01/cisco-ccna.jpg",
 		"proof":""
 		
+	},
+	{
+		"name":"ZCS",
+		"description": "Zabbix Certified Specialist (ZCS)",
+		"badge":"https://assets.zabbix.com/dist/images/logo.fd87efa6da9bed3fd8c9.svg",
+		"proof":"CS-1903-38"
+
 	}
 ]
